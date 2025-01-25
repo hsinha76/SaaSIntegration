@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "607619255",
+    "project_id": "saasintegration-c802c",
+    "storage_bucket": "saasintegration-c802c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607619255:android:a517b0999d372794722532",
+        "android_client_info": {
+          "package_name": "com.hsdroid.saasintegration"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN_dXrnT1Yxh_cPh-til-wDxMJf1dh4qs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
