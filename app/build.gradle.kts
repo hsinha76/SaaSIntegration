@@ -74,11 +74,11 @@ dependencies {
 
     //Room
     implementation(libs.androidx.room.runtime)
-    kapt(libs.androidx.room.compiler)
-    implementation (libs.androidx.room.ktx)
+    ksp(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.ktx)
 
     //Firebase
-    implementation("com.google.firebase:firebase-crashlytics:19.4.0")
-    implementation (libs.firebase.analytics)
-    implementation("com.google.firebase:firebase-perf:21.0.4")
+    implementation(libs.firebase.crashlytics)
+    implementation(libs.firebase.analytics)
+    implementation(libs.firebase.perf)
 }
