@@ -24,8 +24,8 @@ An Android task management app, with SaaS features using Firebase for Analytics,
 🌐 Retrofit<br />
 💾 Room<br />
 📊 Firebase Analytics<br />
-🚀 Firebase Performance<br />
-💥 Firebase Crashlytics
+💥 Firebase Crashlytics<br />
+🚀 Firebase Performance
 
 ## Third-Party Libraries Used
 - **Hilt**
@@ -50,8 +50,8 @@ Installation
 - **Dependency Injection**: Used Hilt For simplified dependency injection ensuring clean and maintainable code.  
 - **Data Persistence**: Room Database to store data locally.
 - **Analytics**: Firebase Analytics to log events like (e.g. "Task Added, "Task Edited, "Task Completed").  
-- **Performance Tracking**: Firebase Performance Monitoring to track network performance.  
 - **Crash Reporting**: Firebase Crashlytics to keep track of app crashes.
+- **Performance Tracking**: Firebase Performance Monitoring to track app & network performance.  
 
 ## Firebase Analytics
 
@@ -66,15 +66,23 @@ Installation
     </td>
     <td style="width: 50%; padding: 10px;">
       <div style="max-width: 100%; overflow: hidden; display: flex; justify-content: center; align-items: center;">
-        <img src="" 
+        <img src="https://github.com/hsinha76/SaaSIntegration/blob/87fb5ef7d789ff6d43827fadc5eb3e955ae39bbd/Analytics/Screenshot%202025-01-26%20at%209.54.26%E2%80%AFAM.png" 
              style="max-width: 100%; height: auto; object-fit: contain;" 
-             alt="Firebase Console">
+             alt="Firebase Analytics">
+      </div>
+    </td>
+   <td style="width: 50%; padding: 10px;">
+      <div style="max-width: 100%; overflow: hidden; display: flex; justify-content: center; align-items: center;">
+        <img src="https://github.com/hsinha76/SaaSIntegration/blob/87fb5ef7d789ff6d43827fadc5eb3e955ae39bbd/Analytics/Screenshot%202025-01-26%20at%209.55.43%E2%80%AFAM.png" 
+             style="max-width: 100%; height: auto; object-fit: contain;" 
+             alt="Events - Firebase Analytics">
       </div>
     </td>
   </tr>
   <tr>
     <td align="center"><em>Firebase DebugView</em></td>
-    <td align="center"><em>Firebase console</em></td>
+    <td align="center"><em>Firebase Analytics</em></td>
+    <td align="center"><em>Events - Firebase Analytics</em></td>
   </tr>
 </table>
 
